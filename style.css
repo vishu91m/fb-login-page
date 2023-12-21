@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+}
+
+.fb-main-containar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+.left-side-sec h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #0d3fb6;
+}
+.left-side-sec p{
+    font-weight: 600;
+    color: black;
+    font-size: medium;
+}
+
+
+.fb-login-containar{
+    margin-left: 15px;
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.text-input{
+    padding: 10px 25px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+.login-btn{
+    padding: 10px 25px;
+    width: 250px;
+    background-color: #0d3fb6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.login-forget-pass{
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+.login-forget-pass a{
+    text-decoration: none;
+   
+}
+
+.createNewAcc{
+    padding: 10px 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(13, 187, 13);
+    color: white;
+
+}
+.create-page{
+    margin: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+.link-page{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
